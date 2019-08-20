@@ -1,15 +1,15 @@
 # PROJETO OPERAÇÕES - PHP 
 - - -
 
-    Trabalho realizado para a disciplina de Desenvolvimento WEB como obtenção de nota para o 3º Semestre, realizado na
-    escola técnica profissionalizante SENAI Prof. "Vicente Amato".
+    Trabalho realizado para a disciplina de Desenvolvimento WEB como obtenção de nota para o 3º Semestre, realizado 
+    na escola técnica profissionalizante SENAI Prof. "Vicente Amato".
     
 ## Propostas e Requisitos 
 - - -
 
-    Para a finalização do trabalho, foi nos entregue uma wireframe (desenho) das páginas que serão feitas ao decorrer 
-    da atividade, onde deverá ter 5 páginas: 4 para operações lógicas (Par ou Impar, Tabuada, Calculadora e Média do 
-    aluno), sendo a outra uma Página Inicial com o menu para o usuário navegar.
+    Para a finalização do trabalho, foi nos entregue uma wireframe (desenho) das páginas que serão feitas ao
+    decorrer da atividade, onde deverá ter 5 páginas: 4 para operações lógicas (Par ou Impar, Tabuada,
+    Calculadora e Média do aluno), sendo a outra uma Página Inicial com o menu para o usuário navegar.
     
 - Para a forma de planejamento da atividade, foi seguido as etapas propostas, como:
     
