@@ -1,0 +1,170 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade - PHP</title>
+        <link rel="stylesheet" href="arquivos/css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+       
+        <!-- Div que segura o conteúdo -->
+        <div class="container">
+           
+            <!-- Imagem do menu - Tela larga -->
+            <div class="sectionMenu">
+                <img src="arquivos/images/menu.png" class="imgMenu" alt="menu">
+            </div>
+            
+            <!-- Imagem do menu - Tela pequena / media -->
+            <div class="sectionMenu_md">
+                <img src="arquivos/images/menu.png" class="imgMenu_md" alt="menu">
+            </div>
+            
+            <!-- Corpo do Menu -->
+            <div class="containerMenu">
+                <div class="menu">
+                    <h2>MENU</h2>
+                    
+                    <!-- Navegadores da página -->
+                    <a href="paginas/media.php">
+                        <div class="navMenu">
+                            <img src="arquivos/images/media.png" class="icon" alt="icone média">
+                            Média
+                        </div>
+                    </a>
+                    
+                    <!-- Menu da calculadora que possui um submenu -->
+                    <div class="navExpand navMenu">
+                        <img src="arquivos/images/calculadora.png" class="icon" alt="icone calculadora">
+                        Calculadora
+                        <img src="arquivos/images/seta.png" class="arrowIcon" alt="^">
+                    </div>
+                    
+                    <!-- Submenu da Calculadora -->
+                    <div class="submenu">
+                       <a href="paginas/calculadora_function.php">
+                            <div class="navSubmenu">
+                                <img src="arquivos/images/function.png" class="icon" alt="icone Function">
+                                Function
+                            </div>
+                        </a>
+                        <a href="paginas/calculadora_if.php">
+                           <div class="navSubmenu">
+                                <img src="arquivos/images/if.png" class="icon" alt="icone if">
+                                If
+                            </div>
+                        </a>
+                        <a href="paginas/calculadora_switch.php">
+                           <div class="navSubmenu">
+                                <img src="arquivos/images/switch.png" class="icon" alt="icone switch">
+                                Switch
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Menu da Tabuada -->
+                    <a href="paginas/tabuada.php">
+                        <div class="navMenu">
+                            <img src="arquivos/images/tabuada.png" class="icon" alt="icone tabuada">
+                            Tabuada
+                        </div>
+                    </a>
+                    
+                    <!-- Menu do Impar / Par -->
+                    <a href="paginas/impar_par.php">
+                       <div class="navMenu">
+                            <img src="arquivos/images/impar_par.png" class="icon" alt="icone impar / par">
+                            Impar / Par
+                        </div>
+                    </a>
+                    
+                    <!-- Menu do inicio -->
+                    <a href="inicio.php">
+                       <div class="navHome navMenu">
+                            <img src="arquivos/images/home.png" class="icon" alt="icone inicio">
+                            Início
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Menu para telas pequenas / medias -->
+            <div class="containerMenu_md">
+                <div class="ulMenu_md">
+                    <!-- Menu da Media -->
+                    <a href="paginas/media.php">
+                       <div class="liMenu_md">
+                            Média
+                        </div>
+                    </a>
+                    <!-- Menu da calculadora que possui submenu -->
+                    <div class="liExpand_md liMenu_md">
+                        Calculadora
+                        <img src="arquivos/images/seta.png" class="arrowIcon" alt="icone calculadora">
+                    </div>
+                    
+                    <div class="ulSubmenu_md">
+                        <a href="paginas/calculadora_function.php">
+                            <div class="liSubmenu_md">
+                                Function
+                            </div>
+                        </a>
+                        <a href="paginas/calculadora_if.php">
+                           <div class="liSubmenu_md">
+                                If
+                            </div>
+                        </a>
+                        <a href="paginas/calculadora_switch.php">
+                            <div class="liSubmenu_md">
+                                Switch
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Menu da Tabuada -->
+                    <a href="paginas/tabuada.php">
+                        <div class="liMenu_md">
+                            Tabuada
+                        </div>
+                    </a>
+                    
+                    <!-- Menu do Impar / Par -->
+                    <a href="paginas/impar_par.php">
+                        <div class="liMenu_md">
+                            Impar / Par
+                        </div>
+                    </a>
+                    
+                    <!-- Menu da pagina inicial -->
+                    <a href="paginas/inicio.php">
+                        <div class="liMenu_md">
+                            Página Inicial
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Container que terá as telas de operação das proximas paginas -->
+            <article class="containerOperacao">
+
+                <!-- Cabeçalho -->
+                <header class="headerOperacao">
+                    <h1>Operações lógicas - PHP</h1>
+                </header>
+
+                <!-- Corpo das operacoes -->
+                <section class="sectionOperacao">
+                
+                </section>
+            </article>
+        </div>
+        
+        <script src="arquivos/js/main.js" type="text/javascript"></script>
+    </body>
+</html>
+
+
+
+<!-- --------------------- FEITO POR ERICK ARAUJO BARBOSA --------------------- -->
+     <!-- --------------------- SENAI JANDIRA - 2019 --------------------- -->

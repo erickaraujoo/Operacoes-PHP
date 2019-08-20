@@ -1,0 +1,755 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.navMenu{
+    font-size: 24px;
+    font-family: 'georgia';
+    padding: 8px 0px 8px 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.menu{
+}
+
+.navMenu:hover{
+    background-color: rgb(23, 35, 47);
+}
+
+.navSubmenu:hover{
+    background-color: rgb(23, 35, 47);
+}
+
+.menu{
+    display: none;
+    margin-top: 25px;
+}
+
+.navHome{
+    margin-top: 60px;
+}
+
+.navSubmenu{
+    padding: 6px 0px 6px 50px;
+    font-size: 20px;
+    font-family: 'georgia';
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.submenu {
+    width: 0;
+}
+
+.navSubmenu{
+    display: none;
+}
+
+.icon{
+    height: 22px;
+    margin-right: 8px;
+}
+
+.arrowIcon{
+    height: 12px;
+    margin-left: 2px;
+    transition: transform .6s;
+}
+
+body{
+    background-color: rgb(67, 124, 151);
+}
+
+body, html{
+    min-width: 650px;
+    height: 100%;
+}
+
+.container{
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+
+.sectionMenu{
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+}
+
+.sectionMenu_md{
+    display: none;
+}
+
+.imgMenu{
+    display: block;
+    height: inherit;
+    width: inherit;
+    cursor: pointer;
+}
+
+.imgMenu_md{
+    display: none;
+}
+
+.containerOperacao{
+    width: 100%;
+    height: inherit;
+}
+
+.containerMenu{
+    background-color: rgb(39, 60, 81);
+}
+
+
+.containerMenu h2{
+    padding: 0px 0px 20px 15px;
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: darkgray;
+    margin-bottom: 10px;
+    font-family: 'arial';
+    cursor: context-menu;
+}
+
+.headerOperacao{
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.headerOperacao h1{
+    font-size: 44px;
+    font-family: sans-serif;
+    color: rgb(23, 35, 47);
+}
+
+.sectionOperacao{
+    width: 100%;
+    height: auto;
+}
+
+.containerMenu_md{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .container{
+        display: block;
+    }
+    
+    .sectionMenu, .imgMenu, .containerMenu{
+        display: none;
+        width: 0%;
+    }
+    
+    .containerOperacao{
+        width: 100%;
+    }
+    
+    .headerOperacao h1{
+        font-size: 40px;
+    }
+    
+    .containerMenu_md{
+        width: 100%;
+        height: 0;
+        display: block;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    
+    .liMenu_md{
+        width: inherit;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        box-sizing: border-box;
+        text-align: center;
+        color: darkgray;
+        font-size: 28px;
+    }
+    
+    .ulSubmenu_md{
+        height: 0px;
+    }
+    
+    .liSubmenu_md{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        box-sizing: border-box;
+        color: darkgray;
+        display: none;
+    }
+    
+    .ulMenu_md h2{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        box-sizing: border-box;
+        font-size: 29px;
+        color: white;
+        font-family: arial;
+        cursor: context-menu;
+    }
+    
+    .containerMenu_md ul li:hover{
+        background-color: rgb(23, 35, 47);
+        cursor: pointer;
+    }
+    
+    .ulMenu_md{
+        display: none;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+    
+    .sectionMenu_md{
+        display: block;
+        height: 55px;
+        width: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+        box-sizing: border-box;
+        position: absolute;
+    }
+    
+    .imgMenu_md{
+        display: block;
+        height: inherit;
+        width: inherit;
+        cursor: pointer;
+    }
+    
+    .imgMenu{
+        display: none;
+    }
+}
+
+
+/* ------------------------- MEDIA ------------------------- */
+
+
+.container_media{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    border: solid 2px black;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+}
+
+.titulo_media, .titulo_calc, .titulo_parImpar{
+    font-size: 26px;
+    font-family: 'Eras Demi ITC';
+    background-color: black;
+    color: white;
+    height: 75px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+}
+
+.form_media{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 270px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.resultMedia{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Eras Demi ITC';
+    background-color: rgba(52, 110, 235, .5);
+    height: 65px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.sectionInput_media, .sectionInput_calc{
+    height: 40px;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Eras Demi ITC';
+}
+
+.inputMedia, .inputCalc, .btnCalcular_media, .btnCalcular_calc, .btnReset_media, .btnReset_calc, .btnCalcular_parImpar, .btnReset_parImpar, .select_form, .select_form{
+    border-radius: 4px;
+    border: solid darkgray 1px;
+}
+
+.inputMedia, .inputCalc{
+    box-shadow: 2px 2px 8px black;
+    height: 28px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    font-size: 21px;
+    width: 200px;
+    font-family: 'Eras Demi ITC';
+    text-align: center;
+    margin-left: 2px;
+}
+
+.btnCalcular_media, .btnCalcular_calc, .btnReset_media, .btnReset_calc{
+    width: 120px;
+    height: 32px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .5s;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Eras Demi ITC';
+    box-shadow: 2px 2px 8px black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.btnCalcular_media:hover, .btnReset_media:hover, .btnCalcular_calc:hover, .btnReset_calc:hover, .btnCalcular_tabuada:hover, .btnReset_tabuada:hover, .btnCalcular_parImpar:hover, .btnReset_parImpar:hover{
+    background-color: rgb(39, 60, 81);
+    border: solid 1px rgb(39, 60, 81);
+    color: white;
+    transition: .5s;
+}
+
+/* ----------------------- CALCULADORA ------------------------- */
+
+.container_calc{
+    height: 470px;
+    width: 700px;
+    margin: 0 auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.containerInput_calc{
+    margin-top: 30px;
+    height: 120px;
+    text-align: center;
+}
+
+.container_valores{
+    width: 350px;
+    float: left;
+    height: 180px;
+}
+
+.valores_calc{
+    height: 180px;
+    width: inherit;
+}
+
+.resultCalc{
+    background-color: rgba(52, 110, 235, .5);
+    width: 350px;
+    float: right;
+    height: 180px;
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 65px;
+    text-align: center;
+    box-shadow: -2px 0px 8px black;
+    border-radius: 0 0 12px 0px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.sectionRadioCalc{
+    font-size: 26px;
+    font-family: 'Eras Demi ITC';
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.sectionBtnCalc{
+    text-align: center;
+}
+
+.radioGroup_calc{
+    height: 18px;
+    width: 18px;
+}
+
+.error{
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(39, 60, 81);
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.word_erro{
+    color: red;
+    font-weight: bold;
+}
+
+/* ----------------------- TABUADA ------------------------- */
+
+.container_tabuada{
+    height: 545px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.tabuada{
+    display: flex;
+    height: 470px;
+    border: solid 2px black;
+    border-radius: 0 0 12px 12px;
+}
+
+.sectionTabuada{
+    height: 200px;
+    width: inherit;
+}
+
+.container_formTabuada{
+    float: left;
+    height: inherit;
+    width: 350px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    border-radius: 0 0 0 12px;
+}
+
+.container_resultTabuada{
+    float: left;
+    height: inherit;
+    width: 350px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 12px 0;
+}
+
+.titulo_tabuada{
+    height: 75px;
+    width: inherit;
+    font-size: 26px;
+    font-family: 'Eras Demi ITC';
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+}
+
+.titulo_resultTabuada{
+    height: 40px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 2px 2px 8px black;
+}
+
+.titulo_resultTabuada h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.inputTabuada{
+    border-radius: 4px;
+    border: solid darkgray 1px;
+    margin-left: 10px;
+}
+.sectionInput_tabuada{
+    height: 40px;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Eras Demi ITC';
+}
+
+.formTabuada{
+    display: flex;
+}
+
+.txtInput_tabuada{
+    width: 150px;
+    height: inherit;
+}
+
+.input_tabuada{
+    width: 250px;
+    height: inherit;
+}
+
+.inputTabuada{
+    box-shadow: 2px 2px 8px black;
+    height: 28px;
+    width: 170px;
+    font-family: 'Eras Demi ITC';
+    text-align: center;
+    font-size: 21px;
+}
+
+.lblTabuada, .lblContador{
+    margin-left: 20px;
+}
+
+.sectionBtn_tabuada{
+    text-align: center;
+}
+
+.btnCalcular_tabuada, .btnReset_tabuada{
+    border-radius: 4px;
+    border: solid darkgray 1px;
+    width: 120px;
+    height: 32px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Eras Demi ITC';
+    box-shadow: 2px 2px 8px black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.sectionResultTabuada{
+    height: 335px;
+    width: 300px;
+    
+    /* A div centraliza verticalmente na div pai dela */
+    position: relative;
+    transform: translateY(-55%);
+    top: 49%;
+    background-color: white;
+}
+
+.titulo_resultTabuada{
+    width: 300px;
+    position: relative;
+    top: 10%;
+}
+
+.lblResult_POST{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.sectionResultTabuada{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box; 
+    overflow: auto;
+    border: solid 2px black;
+    box-shadow: 2px 2px 8px black;
+    background-color: transparent;
+}
+
+/* configurando scroll */
+.sectionResultTabuada::-webkit-scrollbar { 
+    width: 10px; 
+    background: #e3e0d6; 
+} 
+.sectionResultTabuada::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1); 
+}
+.sectionResultTabuada::-webkit-scrollbar-thumb {
+    border-radius: 5px; 
+    background: rgb(39, 60, 81);
+}
+
+.p_result{
+    padding-left: 15px;
+    margin-bottom: 10px;    
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ----------------------- IMPAR / PAR ------------------------- */
+
+
+.container_parImpar{
+    height: 635px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: solid 2px black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.form_parImpar{
+    width: inherit;
+    height: 180px;
+}
+
+.form_numInicial, .form_numFinal{
+    width: 350px;
+    float: left;
+    height: 95px;
+    text-align: center;
+}
+
+.btnForm_parImpar{
+    height: 85px;
+    width: 100%;
+    text-align: center;
+}
+
+.btnCalcular_parImpar, .btnReset_parImpar{
+    width: 120px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .5s;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Eras Demi ITC';
+    box-shadow: 2px 2px 8px black;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 35px;
+}
+
+.p_form{
+    height: 40px;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Eras Demi ITC';
+}
+
+.select_form{
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background: url(../images/seta_select.gif) no-repeat #eeeeee; 
+    background-position: 218px center;  /*Posição da imagem do background*/
+    width: 250px; 
+    height: 30px;
+    text-align-last: center;
+    padding-right: 25px;
+    box-sizing: border-box;
+    font-size: 18px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.container_result_parImpar{
+    height: 380px;
+    width: 700px;
+    display: flex;
+    border-radius: 0 0 12px 12px;
+}
+
+.result_par, .result_impar{
+    height: 340px;
+    width: 350px;
+}
+
+.result_par{
+    border-radius: 0 0 0 12px;
+}
+
+.result_impar{
+    border-radius: 0 0 12px 0;
+}
+
+.titulo_resultPar, .titulo_resultImpar{
+    height: 40px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 2px 2px 8px black;
+    width: 264px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(-50%);
+    top: 11.5%;
+}
+
+.par, .impar{
+    height: 260px;
+    width: 264px;
+    position: relative;
+    transform: translateY(-50%);
+    top: 43.5%;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 2px 2px 8px black;
+    overflow: auto;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+/* configurando scroll */
+.par::-webkit-scrollbar, .impar::-webkit-scrollbar { 
+    width: 10px; 
+    background: #e3e0d6; 
+} 
+.par::-webkit-scrollbar-track, .impar::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1); 
+}
+.par::-webkit-scrollbar-thumb, .impar::-webkit-scrollbar-thumb {
+    border-radius: 5px; 
+    background: rgb(39, 60, 81);
+}
+
+.lblParImpar_POST{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.qtd_parImpar{
+    width: inherit;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
