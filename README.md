@@ -1,8 +1,8 @@
 # PROJETO OPERAÇÕES - PHP 
 - - -
 
-    Trabalho realizado para a disciplina de Desenvolvimento WEB como obtenção de nota para o 3º Semestre, realizado 
-    na escola técnica profissionalizante SENAI Prof. "Vicente Amato".
+    Trabalho realizado para a disciplina de Desenvolvimento WEB como obtenção de nota para o 3º Semestre, 
+    realizado na escola técnica profissionalizante SENAI Prof. "Vicente Amato".
     
 ## Propostas e Requisitos 
 - - -
